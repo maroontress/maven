@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.maroontress",
+    "module": "intexpr",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "intexpr-1.0.jar",
+          "url": "intexpr-1.0.jar",
+          "size": 29329,
+          "sha512": "982a3a2e7091bb71fa67525742cf5b31b184263e0d7415367a0b2ad71998627c992358b4b4f12e9e3d6054c39197f78fc763b6fd974b2625545becf4f880d673",
+          "sha256": "67afda1e109f2765cfd102c2c0102d3834a9756e198602d29aeeabaf71c1ab90",
+          "sha1": "89867e422a3639575ab60731a8a817e05166cd97",
+          "md5": "62353baef36d71b8aed0c1bbc3aaf6a3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.maroontress",
+          "module": "clione",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "intexpr-1.0.jar",
+          "url": "intexpr-1.0.jar",
+          "size": 29329,
+          "sha512": "982a3a2e7091bb71fa67525742cf5b31b184263e0d7415367a0b2ad71998627c992358b4b4f12e9e3d6054c39197f78fc763b6fd974b2625545becf4f880d673",
+          "sha256": "67afda1e109f2765cfd102c2c0102d3834a9756e198602d29aeeabaf71c1ab90",
+          "sha1": "89867e422a3639575ab60731a8a817e05166cd97",
+          "md5": "62353baef36d71b8aed0c1bbc3aaf6a3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "intexpr-1.0-javadoc.jar",
+          "url": "intexpr-1.0-javadoc.jar",
+          "size": 190778,
+          "sha512": "87005ef2950ef195a900151a835d7b9db00e9f85a9b9e9a89da3a413fb02ce6839400ec9cff02ac82b04e8b8d2acdb18039deb4a4742d0404391564d4019eca8",
+          "sha256": "8e31e0faf275aa9a7f36a15c1a620c3312dc45cb2f2aa03adcda4ab4a939344d",
+          "sha1": "16c6f2eafd221bdd21175578fed91d3991013083",
+          "md5": "237f0a9c381492172595dbd3014e44f7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "intexpr-1.0-sources.jar",
+          "url": "intexpr-1.0-sources.jar",
+          "size": 19641,
+          "sha512": "dd03bb2100061ae18d4b960c58f325fe7b58b107da80814d80e8dc1d00b42b54919a224a8c1b6197a9688e9cceebaad3bab074beaf3e743b99fca9714627f572",
+          "sha256": "c08df78d351829622c94c282688bc91df637bf2c038a43b9cda30b6ed50b8458",
+          "sha1": "97bd6a045f4e4bc9a5ad64442a4b23065beaefcf",
+          "md5": "f7a777eeb6eb3e11506ee5f060d916dd"
+        }
+      ]
+    }
+  ]
+}
