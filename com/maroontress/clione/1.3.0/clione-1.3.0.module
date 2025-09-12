@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.maroontress",
+    "module": "clione",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "clione-1.3.0.jar",
+          "url": "clione-1.3.0.jar",
+          "size": 69464,
+          "sha512": "93a500b6b04091802ad2f5d63c8a42184096e5aec9b587e15fba5fa84475a56b8e8bdf54f31f6957ee1b30f03f9d4f376f85a41eea3beff2887bfbf1330dbc1f",
+          "sha256": "c6cb18dc6938ed92ab3077f221c4457e3d8e6b735f1f5cede0ce3f9b54aa6be2",
+          "sha1": "af8af5b78493b18dcab03ff68b683067f0c18d3f",
+          "md5": "f92b79f0a4ac6dbb8687d3126072f1bd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "clione-1.3.0.jar",
+          "url": "clione-1.3.0.jar",
+          "size": 69464,
+          "sha512": "93a500b6b04091802ad2f5d63c8a42184096e5aec9b587e15fba5fa84475a56b8e8bdf54f31f6957ee1b30f03f9d4f376f85a41eea3beff2887bfbf1330dbc1f",
+          "sha256": "c6cb18dc6938ed92ab3077f221c4457e3d8e6b735f1f5cede0ce3f9b54aa6be2",
+          "sha1": "af8af5b78493b18dcab03ff68b683067f0c18d3f",
+          "md5": "f92b79f0a4ac6dbb8687d3126072f1bd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "clione-1.3.0-javadoc.jar",
+          "url": "clione-1.3.0-javadoc.jar",
+          "size": 209129,
+          "sha512": "273e8dd3dc05cc10b5e6921ce4faa79a3dadef47ed6f85a3526fd9cebc520dcf6016adf2cf1f4f61f78f437d0cdf3343f306013009510a07a2935e5857b717a5",
+          "sha256": "0b0fa646eff3b7ddc6a46977fcf7c42d2730f7f17dcfcd5c518c764274c8cb1e",
+          "sha1": "1922b07d1b90c4f0bf74d2053bd293864cfc3af7",
+          "md5": "d9070ff0c6ee6286e06576c31e80a69c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "clione-1.3.0-sources.jar",
+          "url": "clione-1.3.0-sources.jar",
+          "size": 38390,
+          "sha512": "bad3d9a0944f299da30bbcfeffc98bea840c19fc9102abb042c93ad3a0da6e718d6949b85df7b771510a1522a3bfe2e66f00c2430d1e789ff2afba6c1cd90858",
+          "sha256": "09ec7b2c6ce2c811b47454b78d97aeefbde6ad16e906da1d5aea8cfd5261e140",
+          "sha1": "d369082be80d906b0bb628b9de9d0808bfb2399c",
+          "md5": "d1081e1573cffd7dd4fed966ea263dc3"
+        }
+      ]
+    }
+  ]
+}
